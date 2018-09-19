@@ -1,0 +1,51 @@
+<!--detail.wxml-->
+<view class="border"></view>
+  <view class="noSearch" wx:if="{{timeout}}">
+  <view class="noSearch_text">
+    <text>哎哟，网络不给力！</text></view>
+  </view>
+
+   <view >
+    <loading hidden = "{{hidden}}">
+    加载中...
+    </loading>
+    </view>
+
+<view class="feed " wx:if="{{haveNet}}">
+<view class = "drug_title">
+<text wx:if="{{product_name}}">{{product_name+drug_name}}</text>
+<text wx:else="{{product_name}}">{{drug_name}}</text>
+</view>
+<view class="border"></view>
+
+<view class="drug_bt">
+<text>【主要成分】</text></view>
+<view class="drug_nr">
+<text>{{events[0].zycf}}</text></view>
+
+<view class="drug_bt">
+<text>【适应症】</text></view>
+<view class="drug_nr">
+<text>{{events[0].syz}}</text></view>
+
+<view class="drug_bt">
+<text>【用服用量】</text></view>
+<view class="drug_nr">
+<text>{{events[0].yfyl}}</text></view>
+
+<view class="drug_bt">
+<text>【不良反应】</text></view>
+<view class="drug_nr">
+<text>{{events[0].blfy}}</text></view>
+
+<view class="drug_bt">
+<text>【禁忌】</text></view>
+<view class="drug_nr">
+<text>{{events[0].jjz}}</text></view>
+
+<view class="drug_bt">
+<text>【注意事项】</text></view>
+<view class="drug_nr">
+<text>{{events[0].zysx}}</text></view>
+
+</view>

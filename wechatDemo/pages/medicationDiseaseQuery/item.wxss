@@ -1,0 +1,7 @@
+/* item.wxss */
+
+.text_hide{
+
+    display: none;
+
+}

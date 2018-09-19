@@ -1,0 +1,37 @@
+<!--item.wxml-->
+<view class="border"></view>
+   <view >
+    <loading hidden = "{{hidden}}">
+    加载中...
+    </loading>
+    </view>
+
+     <view class="noSearch" wx:if="{{timeout}}">
+  <view class="noSearch_text">
+    <text>哎哟，网络不给力！</text></view>
+  </view>
+  
+<template name="tItem"> 
+    
+<navigator url="../../detail/detail_drug?drug_code={{item.drug_code}}&drug_name={{item.drug_name}}"> 
+<view class="ui-list-item ui-pure-item ui-border-b"> 
+
+  <view class="ui-item-content ui-nowrap">
+  <text class="text_hide">{{item.drug_code}}</text>
+  </view>
+  <view class="ui-item-span">
+<text>{{item.drug_name}}</text>
+</view> 
+ </view> 
+<view class="navigator-arrow"></view>
+</navigator> 
+</template>
+<scroll-view scroll-y="true" class="flex-row ui-list ">
+    <template is="tItem" data="{{item}}" wx:for="{{events}}" />
+      <!-- <view class="ui-tips">
+      <view wx:if="{{hidden}}">
+        <text>没有更多内容了</text></view>
+      <view wx:else>
+        <text>内容加载中...</text></view>
+    </view> -->
+  </scroll-view>

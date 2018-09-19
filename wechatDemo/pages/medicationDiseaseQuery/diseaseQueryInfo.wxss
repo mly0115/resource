@@ -1,0 +1,99 @@
+/* drugQuery.wxss */
+  .tem-font{
+    font-size: 10pt;
+  }
+ .noSearch{
+   text-align: center;
+   width: 100%;
+   height:30px;
+   padding-top: 40px;
+ }
+ .noSearch_text{
+   font-size: 13px;
+   color: #a6a6a6
+ }
+ .hot_search{
+   width: 100%;
+   height:30px;
+   padding-top: 40px;
+ }
+ .hotList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left:5px;
+  padding-top:10px;
+  padding-right: 5px;
+
+}
+ .hotItem{
+  flex: 0 0 20%;
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #eee;
+  margin: 8px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background:#f2f2f2;  
+}
+ .hot_search_text{
+   padding-left: 12px;
+   font-size: 10pt;
+ }
+ .search{
+  width:96%;
+  height:40px;
+  padding:2% 2% 2% 2%;
+  background:#2A8CE5;
+
+
+}
+.list {
+  position:fixed;
+    background-color: #fff;
+    width: 100%; 
+    height: 90%;
+    }
+ .search-left{
+  flex: 7;
+  background: white;
+  text-align: left;
+}
+ .search-left input{
+  display:inline-block;
+  font-size:100%;
+  padding-left:3%;
+  width:87%;
+  background:white;
+  padding-bottom:5px;
+}
+.search-placeholder{
+  color: #e0e0e0;
+  line-height: 20rpx;
+}
+.search .search-left image{
+  display:inline-block;
+width:20px;
+height:20px;
+padding-left:3%;
+padding-top: 9px
+}
+ .search .search-right{
+  flex: 1;
+}
+ .search .search-right image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.container{
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+.text_hide{
+
+    display: none;
+
+}

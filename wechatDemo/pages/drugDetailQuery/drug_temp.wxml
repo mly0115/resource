@@ -1,0 +1,15 @@
+<!--drug_temp.wxml-->
+<!--item.wxml-->
+<template name="tItem"> 
+<navigator url="../detail/detail_drug?drug_code={{item.drug_code}}&drug_name={{item.drug_name}}&product_name={{item.product_name}}"> 
+<view class="ui-list-item ui-pure-item ui-border-b"> 
+  <view class="ui-item-span" wx:if="{{item.product_name}}">
+<text>{{item.product_name+item.drug_name}}</text>
+</view> 
+<view class="ui-item-span" wx:if="{{!item.product_name}}">
+<text>{{item.drug_name}}</text>
+</view> 
+ </view> 
+<view class="navigator-arrow"></view>
+</navigator> 
+</template>

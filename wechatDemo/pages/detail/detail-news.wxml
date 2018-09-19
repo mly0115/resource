@@ -1,0 +1,26 @@
+<!--detail-news.wxml-->
+<view class="border"></view>
+<view id="main">
+    <view class="title">
+     常见问题
+    </view>
+    <view class="border2"></view>
+    <view class="content-bt">
+       <text>1、信息准确吗？
+       </text>
+    </view>
+    <view class="content-nr">
+       <text> 答：demo。
+       </text>
+    </view>
+    <view class="border"></view>
+    <view class="content-bt">
+         <text>2、包含哪些功能？
+        </text>
+    </view>
+    <view class="content-nr">
+       <text> 答：具体功能未来上线。
+       </text> 
+    </view>
+    <view class="border"></view>
+</view>

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/text/zy",
+    "pages/detail/detail_drug",
+    "pages/templates/item",
+    "pages/detail/detail-one",
+    "pages/detail/detail-news",
+    "pages/templates-home/item",
+    "pages/medicationDiseaseQuery/diseaseQueryInfo",
+    "pages/drugInteraction/drugInteraction",
+    "pages/medicationDiseaseQuery/detail/diseaseDrugDetail",
+    "pages/drugDetailQuery/drugQuery",
+    "pages/drugDetailQuery/drug_temp",
+    "pages/drugDirectory/drugDirectoryInfo",
+    "pages/diseaseDirectory/diseaseDirectoryInfo",
+    "pages/clinicalPathway/clinicalPathwayInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "fontSize": "15px",
+    "list": [
+      {
+        "selectedIconPath": "pages/image/index_img_click.png",
+        "iconPath": "pages/image/index_img.png",
+        "pagePath": "pages/index/index",
+        "text": "index"
+      },
+      {
+        "selectedIconPath": "pages/image/drug_img_click.png",
+        "iconPath": "pages/image/drug_img.png",
+        "pagePath": "pages/drugDirectory/drugDirectoryInfo",
+        "text": "drug"
+      },
+      {
+        "selectedIconPath": "pages/image/disease_img_click.png",
+        "iconPath": "pages/image/disease_img.png",
+        "pagePath": "pages/diseaseDirectory/diseaseDirectoryInfo",
+        "text": "disease"
+      },
+      {
+        "selectedIconPath": "pages/image/clinicalpathway_click.png",
+        "iconPath": "pages/image/clinicalpathway.png",
+        "pagePath": "pages/clinicalPathway/clinicalPathwayInfo",
+        "text": "clinical"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 15000
+  }
+}

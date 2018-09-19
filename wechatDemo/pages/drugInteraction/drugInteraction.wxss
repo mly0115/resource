@@ -1,0 +1,157 @@
+/* drugInteraction.wxss */
+/* @import "../templates/drug_item.wxss"; */
+.totalClass{
+  height: 80%;
+  /* background:#e0e0e0; */
+  width:100%;
+}
+.searchClass{
+  height:100%;
+  width:103%;
+  margin-left:0px;
+}
+.fx_class{
+  background:#e0e0e0;
+}
+.tem-font{
+    font-size: 10pt;
+  }
+.noSearch{
+   text-align: center;
+   width: 100%;
+   height:30px;
+   padding-top: 40px;
+ }
+ .list {
+  position:fixed;
+    background-color: #fff;
+    width: 100%; 
+    height: 81%;
+    }
+ .border {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1px; }
+ .noSearch_text{
+   font-size: 13px;
+   color: #a6a6a6;
+   line-height:1.5;
+ }
+ .hot_search{
+   width: 100%;
+   height:30px;
+   padding-top: 40px;
+ }
+ .hotList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left:5px;
+  padding-top:10px;
+  padding-right: 5px;
+
+}
+ .hotItem{
+  flex: 0 0 20%;
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #eee;
+  margin: 8px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background:#f2f2f2;  
+}
+ .hot_search_text{
+   padding-left: 12px;
+   font-size: 10pt;
+ }
+ .search{
+  width:80%;
+  height:40px;
+  padding:2% 2% 2% 2%;
+  background:#2A8CE5;
+}
+.addSearch{
+  background:#2A8CE5;
+  width:13%;
+}
+ .search-left{
+  flex: 7;
+  background: white;
+  text-align: left;
+}
+ .search-left input{
+  display:inline-block;
+  font-size:100%;
+  padding-left:3%;
+  width:85%;
+  background:white;
+  padding-bottom:5px;
+}
+.search-placeholder{
+  color: #e0e0e0;
+  line-height: 20rpx;
+}
+.search .search-left image{
+  display:inline-block;
+width:20px;
+height:20px;
+padding-left:3%;
+padding-top: 9px
+}
+ .search .search-right{
+  flex: 1;
+}
+ .search .search-right image{
+  width: 50rpx;
+  height: 50rpx;
+}
+ .search .search-right{
+  flex: 1;
+  width:73px;
+}
+ .search .search-right button{
+  width: 30px;
+  height: 30px;
+  margin-right: 10rpx;
+}
+
+.container{
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+/** wxss **/
+/** 淇敼button榛樿鐨勭偣鍑绘�鏍峰紡绫�*/
+.button-hover {
+  background-color: red;
+}
+/** 娣诲姞鑷畾涔塨utton鐐瑰嚮鎬佹牱寮忕被**/
+.other-button-hover {
+  background-color: blue;
+}
+
+.buttonClass{
+  padding-top: 0%;
+  width:73px;
+
+
+}
+.buttonFXJG{
+  font-size:100%;
+  line-height:1.5;
+  text-align:center;
+  padding-top:3%;
+  margin-top:0%;
+  margin-right:0%;
+  /* font-weight:bold; */
+  margin-left:0%;
+  padding-bottom:2%;
+  font-family: 寰蒋闆呴粦;
+}
+.button-hover{
+ background-color:#e5e5ff;
+}
+.border2{
+  border-bottom: 5px solid #e0e0e0;
+}

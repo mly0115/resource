@@ -1,0 +1,16 @@
+<!--item.wxml-->
+<template name="drugItem"> 
+<!-- <navigator url="../detail/detail-?{{item.e_id}}"> -->
+
+<view  data-code="{{item.drug_code}}" data-name="{{item.drug_name}}"  class="list-item pure-item border-b" bindtap="selectDrugName"> 
+   <view  data-code="{{item.drug_code}}" data-name="{{item.drug_name}}"  class="ui-item-content ui-nowrap"  >
+  <text  hidden='true'>{{item.drug_code}}</text>
+  </view> 
+  <view class="item-span">
+  <image src="../image/select.png" class="imagClass" ></image>
+<text>{{item.drug_name}}</text>
+</view> 
+ </view> 
+<!-- <view data-name="3333" class="navigator-arrow"></view> -->
+<!-- </navigator>  -->
+</template>

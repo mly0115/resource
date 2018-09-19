@@ -1,0 +1,22 @@
+/* drug_temp.wxss */
+.item-span {
+    font-size: 12px;
+    padding-left: 52rpx;
+    color: #777;
+    padding-right:10px;
+ }
+ .list-item {
+    position: relative;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    display: -webkit-box; }
+
+.pure-item {
+    display: block; 
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    -webkit-box-align: center; }
+.border-b {
+    border-bottom: 1px solid #e0e0e0; }

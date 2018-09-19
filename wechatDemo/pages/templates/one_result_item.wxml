@@ -1,0 +1,13 @@
+<!--item.wxml-->
+<template name="oneResultItem"> 
+<view class="list-item pure-item border-b"> 
+  <image src="../image/result.png" class="imagClass1"></image>
+  <view class="ui-item-content">
+  <text>{{item.result}}</text>
+  </view>
+  <view class="item-span">
+
+<text>{{item.effect}}</text>
+</view> 
+ </view>
+</template>

@@ -1,0 +1,14 @@
+<!--item.wxml-->
+<template name="tItem"> 
+  <navigator url="../medicationDiseaseQuery/detail/diseaseDrugDetail?icd={      {item.icd_code}}&icd_name={{item.icd_name}}"> 
+    <view class="ui-list-item ui-pure-item ui-border-b"> 
+      <view class="ui-item-content ui-nowrap">
+        <text class="text_hide">{{item.icd_code}}</text>
+      </view>
+      <view class="ui-item-span">
+        <text>{{item.icd_name}}</text>
+      </view> 
+    </view> 
+    <view class="navigator-arrow"></view>
+  </navigator> 
+</template>
